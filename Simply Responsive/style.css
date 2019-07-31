@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   }
+@media only screen and (max-width:480px){
+    .sm-head{
+        width: 100%;
+        background-color: rgb(87, 82, 82);
+        border: 2px solid black;
+        border-radius: 5px;
+        height: 75px;
+         
+    }
+    .sm-text{
+        width: 100%;
+        background-color: rgb(143, 138, 138);
+        border: 2px solid black;
+        border-radius: 5px;
+        height: 75px;
+         
+    }
+    .sm-foot{
+        width: 100%;
+        background-color: rgb(201, 204, 23);
+        border: 2px solid black;
+        border-radius: 5px; 
+        height: 75px;
+    }
+    .med-foot{
+        display: none;     
+    }
+    .lg-foot{
+        
+        display: none;     
+        
+    }
+}
+@media only screen and (min-width:481px){
+    .med-head{
+        width: 50%;
+        background-color: rgb(87, 82, 82);
+        border: 2px solid black;
+        border-radius: 5px;
+        height: 75px;
+         
+    }
+    .med-text{
+        width: 50%;
+        background-color: rgb(143, 138, 138);
+        border: 2px solid black;
+        border-radius: 5px;
+        height: 75px;
+         
+    }
+    .med-foot{
+        width: 50%;
+        background-color: rgb(201, 204, 23);
+        border: 2px solid black;
+        border-radius: 5px;
+        height: 75px;
+    }
+    .sm-foot{
+        display: none;     
+    }
+    .lg-foot{
+        
+        display: none;     
+        
+    }
+}
+@media only screen and (min-width:1024px){
+    .lg-head{
+        width: 25%;
+        background-color: rgb(87, 82, 82);
+        border: 2px solid black;
+        border-radius: 5px;
+        height: 75px;
+         
+    }
+    .lg-text{
+        width: 25%;
+        background-color: rgb(143, 138, 138);
+        border: 2px solid black;
+        border-radius: 5px;
+        height: 75px;
+         
+    }
+    .lg-foot{
+        width: 25%;
+        background-color: rgb(201, 204, 23);
+        border: 2px solid black;
+        border-radius: 5px; 
+        height: 75px;
+    }
+    .med-foot{
+        display: none;     
+    }
+    .sm-foot{
+        
+        display: none;     
+        
+    }
+}

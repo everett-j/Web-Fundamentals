@@ -1,0 +1,156 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+.wrapper{
+    width:970px;
+    height: 890px;
+    background-color: #c2c4a5;
+    margin: 0px auto;
+    padding-top: 5px;
+}
+
+.header{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    font-size: 44px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+    .header img{
+        width: 12%;
+        height: 12%;
+        background-color: white;
+    }
+.row1 img{
+    padding: 12px;
+    display: inline-block;
+    width: 16%;
+    height: 12%;
+    background-color: red;
+    border: 4px solid black;
+    margin-left: 6px;
+   
+}
+.row1-odd img{
+    padding: 12px;
+    display: inline-block;
+    width: 15%;
+    height: 15%;
+    background-color: rgb(57, 127, 192);
+    border: 4px solid black;
+    margin-left: 5px;
+    margin-top: 5px;
+    
+   
+}
+.row1{
+    align-content: center;
+    vertical-align: top;
+    display: inline;
+    float: right;
+    width: 938px;
+}
+
+.row2{
+    align-content: center;
+    vertical-align: top;
+    display: inline;
+    float: right;
+    width: 938px;
+}
+    .row2-even img{
+        padding: 12px;
+        display: inline-block;
+        width: 15%;
+        height: 15%;
+        background-color: rgb(212, 96, 96);
+        border: 4px solid black;
+        margin-left: 5px;
+        margin-top: 5px;
+}
+.row1-odd{
+    vertical-align: top;
+    display: inline;
+}
+.row2-even{
+    vertical-align: top;
+    display: inline;
+}
+.row2-oddball img{
+    padding: 12px;
+    display: inline-block;
+    width: 15%;
+    height: 15%;
+    background-color: rgb(212, 96, 96);
+    border: 4px solid black;
+    margin-left: 5px;
+    margin-top: 5px;
+    padding-top: 33px;
+}
+.row2-oddball{
+    vertical-align: top;
+    display: inline;
+}
+
+
+
+
+
+
+.n2{
+    width: 515px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    font-family: 'Caveat', cursive;
+    font-size: 38px;
+    color: white;
+    text-align: right;
+}
+.site-text{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    padding: 5px;
+    height: 155px;
+}
+.headline{
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    background-color: silver;
+    border: 1px solid silver;
+    border-radius: 5px;
+    margin: 5px 0 5px 0;
+}
+.technology-lamode img {
+    width: 18%;
+    height: 18%;
+}
+.site-text-head{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    padding: 5px;
+}
+.button {
+    background-color: rgb(33, 107, 35);
+    border: none;
+    color: white;
+    padding: 5px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    align-content: center;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    margin-left: 68px;
+    margin-top: 10px;
+  }
+  .site-text-foot{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    padding: 5px;
+    text-align: center;
+}

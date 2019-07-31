@@ -1,0 +1,93 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+.wrapper{
+ width: 970px;
+ background-color: rgb(33, 34, 110);
+ margin: 0px auto;
+ height: 705px;
+ padding-top: 5px;
+}
+.container{
+ color: black;   
+}
+.header{
+ min-height: 70px;
+ background-color: rgb(177, 36, 36);
+ margin: 15px;
+ border-radius: 25px;
+ color: white;
+}
+.navigation{
+ min-height: 300px;
+ width: 200px;
+ background-color: rgb(53, 136, 192);
+ margin-left: 15px;
+ margin-top: 15px;
+ border-radius: 25px;
+
+}
+ ul li {
+     margin-left: 10px;
+ }
+ ul li ul li {
+    margin-left: 10px;
+}
+
+.main_content{
+ min-height: 400px;
+ width: 680px;
+ background-color: rgb(3, 9, 36);
+ display: block;
+ float: right;
+ margin-right: 20px;
+ position: relative;
+ bottom: 300px;
+ border-radius: 25px;
+ color: white;
+ padding: 20px;
+ font-size: 15px;
+}
+
+.footer{
+    min-height: 30px;
+    background-color: gray;
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    top: 230px;
+    border-radius: 25px;
+    color: white;
+
+}
+
+.header_head{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 25px;
+}
+.nav{
+    color: white;
+    padding: 15px;
+}
+a:link{
+    color: aquamarine;
+}
+a:visited{
+    color: aquamarine;
+}
+.footer2{
+    padding: 15px;
+    white-space: nowrap;
+}
+.headline{
+    font-size: 18px;
+    font-weight: bold;
+}
+.p-purple{
+    color: purple;
+}
